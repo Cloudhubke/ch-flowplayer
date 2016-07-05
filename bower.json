@@ -1,8 +1,8 @@
 {
-  "name": "ch-jwplayer",
+  "name": "ch-flowplayer",
   "version": "1.0.7",
   "authors": [
-    "gaithoben <gaithoben@gmail.com"
+    "gaithoben <gaithoben@gmail.com>"
   ],
   "description": "An element based on popular JW Player.",
   "keywords": [
@@ -10,9 +10,9 @@
     "polymer",
     "jwplayer"
   ],
-  "main": "ch-jwplayer.html",
+  "main": "ch-flowplayer.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/cloudhubke/ch-jwplayer/",
+  "homepage": "https://github.com/cloudhubke/ch-flowplayer/",
   "ignore": [
     "/.*",
     "/test/"

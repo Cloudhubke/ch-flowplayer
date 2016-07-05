@@ -1,8 +1,8 @@
 {
-  "name": "ch-jwplayer",
+  "name": "ch-flowplayer",
   "version": "1.0.7",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "gaithoben <gaithoben@gmail.com>"
   ],
   "description": "An player based on JWplayer",
   "keywords": [
@@ -10,9 +10,9 @@
     "polymer",
     "seed"
   ],
-  "main": "ch-jwplayer.html",
+  "main": "ch-flowplayer.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/Cloudhubke/ch-jwplayer/",
+  "homepage": "https://github.com/Cloudhubke/ch-flowplayer/",
   "ignore": [
     "/.*",
     "/test/"
@@ -23,15 +23,15 @@
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "web-component-tester": "^4.0.0"
-  },s
+  },
   "_release": "1.0.7",
   "_resolution": {
     "type": "version",
     "tag": "v1.0.7",
     "commit": "ea6e7598c19f113b7db6a309cfd8c4e15614d6f7"
   },
-  "_source": "git://github.com/cloudhubke/ch-jwplayer.git",
+  "_source": "git://github.com/cloudhubke/ch-flowplayer.git",
   "_target": "^1.0.7",
-  "_originalSource": "Cloudhubke/ch-jwplayer",
+  "_originalSource": "Cloudhubke/ch-flowplayer",
   "_direct": true
 }

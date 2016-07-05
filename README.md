@@ -1,6 +1,12 @@
+<<<<<<< HEAD
+# ch-flowplayer
+
+An media player element providing a streaming services for media content. The Webcomponent is based on Polymer 1.6
+=======
 # seed-element
 
 An element providing a starting point for your own reusable Polymer elements.
+>>>>>>> 33601e513196d18aa1f26ed342c15f23fb3c983e
 
 
 ## Dependencies
@@ -28,6 +34,10 @@ And you can run it via:
     polyserve
 
 Once running, you can preview your element at
+<<<<<<< HEAD
+`http://localhost:8080/components/ch-flowplayer/`, where `ch-flowplayer` is the name of the directory containing it.
+
+=======
 `http://localhost:8080/components/seed-element/`, where `seed-element` is the name of the directory containing it.
 
 
@@ -59,3 +69,4 @@ Then, you can run your tests on _all_ of your local browsers via:
 ## Yeoman support
 
 If you'd like to use Yeoman to scaffold your element that's possible. The official [`generator-polymer`](https://github.com/yeoman/generator-polymer) generator has a [`seed`](https://github.com/yeoman/generator-polymer#seed) subgenerator.
+>>>>>>> 33601e513196d18aa1f26ed342c15f23fb3c983e
