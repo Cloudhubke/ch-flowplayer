@@ -56,12 +56,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     embed: false, // setup would need iframe embedding
                     ratio: 5/12,
 
-                    // manual HLS level selection for Drive videos
-                    hlsQualities: "drive",
-
-                    // manual VOD quality selection when hlsjs is not supported
-                    defaultQuality: "480p",
-                    qualities: ["360p", "480p", "720p"],
+                    hlsQualities: [0,1,2,3],
 
                     clip: {
                         sources: [
