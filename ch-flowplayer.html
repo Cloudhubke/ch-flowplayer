@@ -32,7 +32,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             properties:{
                 video:{
                     type:String,
-                    value:'01_01-Welcome/welcome.m3u8'
+                    value:null,
+                    observer: '_videoChanged',
+                    notify:true
                 },
                 streamapi:{
                     type:String,
@@ -45,27 +47,31 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             },
 
             attached:function () {
-
+                this.updateStyles();
+            },
+            _videoChanged:function(e, detail){
+                if(this.video!=null){
+                    this.loadVideo(this.video);
+                }
+            },
+            loadVideo:function(video){
                 var node=this.$.hlsvideo;
-
+                //  console.log('loading video', video);
                 flowplayer(node, {
                     splash: true,
                     embed: false, // setup would need iframe embedding
                     ratio: 9/16,
-
-                    hlsQualities: [0,1,2],
+                    hlsQualities: [0,1,2],                   
 
                     clip: {
                         sources: [
                             { type: "application/x-mpegurl",
-                                src:  this.streamapi+this.video
+                                src:  video
                             }
                         ]
                     }
 
                 });
-
-                this.updateStyles();
             }
         });
 
